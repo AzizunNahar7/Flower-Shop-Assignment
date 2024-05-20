@@ -44,9 +44,12 @@ header{
     border: none;
 }
 
+main{
+    background: palegoldenrod
+}
+
 /* Feature section styles */
 .feature-section{
-    background-color: #E55473;
     padding: 0 240px;
     margin-bottom: 128px;
 }
@@ -121,6 +124,35 @@ header{
     font-weight: 600;
     margin-top: 24px;
 }
+
+/* Deal section styles */
+.deal-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+    padding: 100px 429px 100px 395px;
+}
+
+.deal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 186px;
+}
+
+.deal-content{
+    text-align: center;
+}
+
+.deal-title-color{
+    color: #E55473;
+}
+
+.deal-description{
+    margin-bottom: 32px;
+}
+
+
 
 
 
