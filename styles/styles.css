@@ -45,7 +45,7 @@ header{
 }
 
 main{
-    background: palegoldenrod
+    background: #FFF;
 }
 
 /* Feature section styles */
@@ -160,6 +160,35 @@ main{
     padding: 0 240px;
     gap: 24px;
     margin-bottom: 128px;
+}
+
+/* Latest deal section styles */
+.latest-deal-section{
+    border-radius: 8px;
+    background: url('../Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    margin-bottom: 128px;
+    width: 1440px;
+    height: 449px;
+    padding: 122px 0;
+}
+
+.box{
+    padding: 0 287px;
+}
+
+.input-box{
+    padding: 22px 450px 22px 23px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    
+}
+
+.input-box:hover{
+    border: 2px solid black;
 }
 
 
